@@ -7,34 +7,17 @@ A Conway's Game of Life inspired simulation where circles move around and intera
 - Proximity-based interactions between entities
 - Continuous simulation with real-time visualization
 - Inspired by Conway's Game of Life rules but with added movement mechanics
-- SFML-powered graphics for smooth rendering
+- Ebiten-powered graphics for smooth rendering
 
 ## Prerequisites
 
-1. Go 1.21 or later
-2. SFML 2.6 library
+1. Go 1.22 or later
 
 ### Installing Prerequisites
 
 #### Go Installation
 1. Download Go from [official website](https://golang.org/dl/)
 2. Follow the installation instructions for your OS
-
-#### SFML Installation
-On macOS:
-```bash
-brew install sfml
-```
-
-On Linux:
-```bash
-sudo apt-get install libsfml-dev  # Debian/Ubuntu
-sudo pacman -S sfml               # Arch Linux
-```
-
-On Windows:
-1. Download SFML 2.6 from [SFML website](https://www.sfml-dev.org/download.php)
-2. Follow the Windows installation instructions from SFML documentation
 
 ## Installation
 
@@ -75,4 +58,4 @@ go run main.go
 
 ## Development
 
-The project is structured using Go modules and SFML for graphics rendering. The main simulation logic is separated from the rendering code for better maintainability 
+The project is structured using Go modules and Ebiten for graphics rendering. The main simulation logic is separated from the rendering code for better maintainability 
