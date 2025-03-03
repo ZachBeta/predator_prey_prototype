@@ -23,7 +23,7 @@ A Conway's Game of Life inspired simulation where circles move around and intera
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/zachbeta/predator_prey_prototype.git
 cd predator_prey_prototype
 ```
 
